@@ -19,7 +19,7 @@
           <span v-text="t$('global.messages.info.register.noaccount')"></span>&nbsp;
           <router-link class="alert-link" to="/register" v-text="t$('global.messages.info.register.link')"></router-link>
         </div>
-        <div class=" d-flex justify-content-center align-items-center">
+        <div class="d-flex justify-content-center align-items-center">
           <span class="logo-img hipster"></span>
         </div>
       </div>
