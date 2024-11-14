@@ -1,0 +1,51 @@
+{
+  "annotations": {
+    "changelogDate": "20241113000001"
+  },
+  "changelogDate": "20241113000001",
+  "domainEntityName": "Noticia",
+  "dto": "mapstruct",
+  "entityType": "domain",
+  "fields": [
+    {
+      "fieldName": "titulo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "conteudo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dataPublicacao",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "autor",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "categoria",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "fonte",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "url",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "classificacao",
+      "fieldType": "String"
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "name": "Noticia",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceClass",
+  "skipFakeData": true
+}

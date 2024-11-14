@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <!--
+        Added the entity Noticia.
+    -->
+    <changeSet id="20241113000001-1" author="jhipster">
+        <createTable tableName="noticia">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="titulo" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="conteudo" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="data_publicacao" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="autor" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="categoria" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="fonte" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="url" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="classificacao" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here -->
+        </createTable>
+    </changeSet>
+
+    <!-- jhipster-needle-liquibase-add-changeset - JHipster will add changesets here -->
+</databaseChangeLog>

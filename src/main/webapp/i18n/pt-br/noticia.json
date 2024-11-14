@@ -1,0 +1,31 @@
+{
+  "realTimeClimateNewsApp": {
+    "noticia": {
+      "home": {
+        "title": "Noticias",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Noticia",
+        "createOrEditLabel": "Criar ou editar Noticia",
+        "notFound": "Nenhum Noticia encontrado"
+      },
+      "created": "Um novo Noticia foi criado com o identificador { param }",
+      "updated": "Um Noticia foi atualizado com o identificador { param }",
+      "deleted": "Um Noticia foi excluído com o identificador { param }",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Noticia { id }?"
+      },
+      "detail": {
+        "title": "Noticia"
+      },
+      "id": "ID",
+      "titulo": "Titulo",
+      "conteudo": "Conteudo",
+      "dataPublicacao": "Data Publicacao",
+      "autor": "Autor",
+      "categoria": "Categoria",
+      "fonte": "Fonte",
+      "url": "Url",
+      "classificacao": "Classificacao"
+    }
+  }
+}
